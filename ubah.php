@@ -65,8 +65,8 @@ function is_select($var, $val) {
                     <label>Kategori</label>
                     <select name="kategori">
                         <option <?php echo is_select('Komputer', $data['kategori']);?> value="Komputer">Komputer</option>
-                        <option <?php echo is_select('Komputer', $data['kategori']);?> value="Elektronik">Elektronik</option>
-                        <option <?php echo is_select('Komputer', $data['kategori']);?> value="Hand Phone">Hand Phone</option>
+                        <option <?php echo is_select('Elektronik', $data['kategori']);?> value="Elektronik">Elektronik</option>
+                        <option <?php echo is_select('Hand Phone', $data['kategori']);?> value="Hand Phone">Hand Phone</option>
                     </select>
                 </div>
                 <div class="input">
